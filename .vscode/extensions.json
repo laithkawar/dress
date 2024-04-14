@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "nuxt.mdc",
+        "esbenp.prettier-vscode"
+    ]
+}

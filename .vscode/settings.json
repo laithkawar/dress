@@ -1,0 +1,31 @@
+{
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.formatOnSave": false // Disable format on save for Markdown files
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/.nuxt/**",
+  ],
+  "cSpell.words": [
+    "cloudinary",
+    "Namecheap",
+    "Nuxt",
+    "Tailwindcss"
+  ],
+  "search.exclude": {
+    "**/.output": true,
+    "**/dist/**": true
+  },
+  "files.exclude": {
+    "**/.output": true,
+    "**/dist/**": true
+  },
+}
